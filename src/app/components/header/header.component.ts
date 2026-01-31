@@ -20,8 +20,8 @@ import { CommonModule } from '@angular/common';
               Fale via WhatsApp
             </a>
         </nav>
-        <a [href]="whatsappUrl()" target="_blank" class="md:hidden bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full">
-          <i class="fab fa-whatsapp"></i> Contato
+        <a [href]="whatsappUrl()" target="_blank" class="md:hidden bg-green-500 hover:bg-green-600 text-white flex items-center font-bold py-2 px-4 rounded-full">
+          <i class="fab fa-whatsapp px-2"></i> Contato
         </a>
       </div>
     </header>

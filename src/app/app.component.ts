@@ -37,7 +37,7 @@ import { Credential } from './components/models';
 export class AppComponent {
   private sanitizer = inject(DomSanitizer);
 
-  readonly whatsappUrl = 'https://wa.me/5511999998888?text=Olá,%20Salatiel!%20Gostaria%20de%20solicitar%20uma%20análise%20grafotécnica.';
+  readonly whatsappUrl = 'https://wa.me/5563984938159?text=Olá,%20Salatiel!%20Gostaria%20de%20solicitar%20uma%20análise%20grafotécnica.';
   readonly youtubeVideoId = 'o-1544aUTVA'; // Placeholder video about graphology
   readonly videoUrl: SafeResourceUrl;
 
