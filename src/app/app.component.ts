@@ -1,18 +1,19 @@
 
 import { Component, ChangeDetectionStrategy, signal, inject } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { HeaderComponent } from './app/header/header.component';
-import { HeroComponent } from './app/hero/hero.component';
-import { AboutComponent } from './app/about/about.component';
-import { CredentialsComponent } from './app/credentials/credentials.component';
-import { ServicesComponent } from './app/services/services.component';
-import { VideoComponent } from './app/video/video.component';
-import { ProcessComponent } from './app/process/process.component';
-import { TestimonialsComponent } from './app/testimonials/testimonials.component';
-import { FaqComponent } from './app/faq/faq.component';
-import { ContactComponent } from './app/contact/contact.component';
-import { FooterComponent } from './app/footer/footer.component';
-import { Service, FaqItem, Credential, Testimonial } from './app/models';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { CredentialsComponent } from './components/credentials/credentials.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { Service, Testimonial, FaqItem } from './components/models';
+import { ProcessComponent } from './components/process/process.component';
+import { ServicesComponent } from './components/services/services.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { VideoComponent } from './components/video/video.component';
+import { Credential } from './components/models';
 
 @Component({
   selector: 'app-root',

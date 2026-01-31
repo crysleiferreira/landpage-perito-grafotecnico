@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
     <header class="bg-gray-900/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300">
       <div class="container mx-auto px-6 py-4 flex justify-between items-center">
         <div class="text-2xl font-bold text-white tracking-wider" style="font-family: 'Playfair Display', serif;">
-          <i class="fas fa-feather-alt text-amber-400 mr-2"></i>SALATIEL RODRIGUES
+          <i class="fas fa-feather-alt text-amber-400 mr-2"></i>SALATIEL R. FERREIRA
         </div>
         <nav class="hidden md:flex items-center space-x-6">
             <a href="#sobre" class="text-gray-300 hover:text-amber-400 transition-colors">Sobre</a>
