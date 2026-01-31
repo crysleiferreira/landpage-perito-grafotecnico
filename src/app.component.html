@@ -1,0 +1,18 @@
+
+<div class="bg-gray-900 min-h-screen">
+  <app-header [whatsappUrl]="whatsappUrl" />
+
+  <main>
+    <app-hero />
+    <app-about />
+    <app-credentials [credentials]="credentials()" />
+    <app-services [services]="services()" />
+    <app-video [videoUrl]="videoUrl" />
+    <app-process />
+    <app-testimonials [testimonials]="testimonials()" />
+    <app-faq [faqs]="faqs()" (toggleFaqEvent)="toggleFaq($event)" />
+    <app-contact [whatsappUrl]="whatsappUrl" />
+  </main>
+
+  <app-footer [whatsappUrl]="whatsappUrl" />
+</div>
